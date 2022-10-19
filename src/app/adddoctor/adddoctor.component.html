@@ -1,0 +1,72 @@
+
+<app-navbar></app-navbar>
+<div class="container">
+    <div class="row">
+        <div class="col col-12 col-sm-12 col-md-12 col-lg-12 col-xl-12 col-xxl-12">
+
+
+<div class="row g-4">
+<div class="col col-12 col-sm-12 col-md-12 col-lg-12 col-xl-12-col-xxl-12">
+
+    <label for="" class="form-label">Doctor name</label>
+    <input type="text" class="form-control" name="doctorname" [(ngModel)]="doctorname">
+</div>
+
+<div class="col col-12 col-sm-12 col-md-12 col-lg-12 col-xl-12-col-xxl-12">
+
+    <label for="" class="form-label">Department</label>
+    <select name="department" [(ngModel)]="department" id="" class="form-control">
+        <option value="select">-----select-----</option>
+        <option value="Cardiology">Cardiology</option>
+        <option value="Neurology">Neurology</option>
+        <option value="Nephrology">Nephrology</option>
+        <option value="Psychiatry">Pulmonology</option>
+    </select>
+</div>
+<div class="col col-12 col-sm-12 col-md-12 col-lg-12 col-xl-12-col-xxl-12">
+
+    <label for="" class="form-label">Hospital name</label>
+    <input type="text" class="form-control" name="hospital"[(ngModel)]="hospital">
+</div>
+
+<div class="col col-12 col-sm-12 col-md-12 col-lg-12 col-xl-12-col-xxl-12">
+
+    <label for="" class="form-label">Address</label>
+<textarea name="address" [(ngModel)]="address" id="" cols="30" rows="10" class="form-control"></textarea>    
+</div>
+
+<div class="col col-12 col-sm-12 col-md-12 col-lg-12 col-xl-12-col-xxl-12">
+
+    <label for="" class="form-label">Date of Joining</label>
+<input type="date" name="doj" [(ngModel)]="doj" id="" class="form-control">   
+</div>
+<div class="col col-12 col-sm-12 col-md-12 col-lg-12 col-xl-12-col-xxl-12">
+
+    <label for="" class="form-label">Mobile No</label>
+    <input type="text" class="form-control" name="phone" [(ngModel)]="phone">
+</div>
+<div class="col col-12 col-sm-12 col-md-12 col-lg-12 col-xl-12-col-xxl-12">
+
+<label for="" class="form-label">Email</label>
+<input type="email" name="email" [(ngModel)]="email" id="" class="form-control"></div>
+
+
+
+<div class="col col-12 col-sm-12 col-md-12 col-lg-12 col-xl-12-col-xxl-12">
+
+<button class="btn btn-danger" [disabled]="status" (click)="readValues()">Register</button></div>
+
+
+
+
+</div>
+
+
+
+
+        </div>
+
+   
+    
+</div>
+</div>
